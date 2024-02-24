@@ -1,0 +1,88 @@
+* {
+  margin: 0%;
+  padding: 0%;
+}
+
+.main {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+}
+
+.todo {
+  width: 50%;
+  height: 150%;
+  background-image: url("/style/img/first\ win1.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.todo .imagen {
+  width: 100%;
+  height: 70%;
+}
+.todo .imagen .imagen-principal {
+  width: 100%;
+  height: 100%;
+}
+.todo .imagen .imagen-principal img {
+  height: 20%;
+  height: 20%;
+}
+.todo .separador {
+  background-color: rgba(114, 11, 11, 0.916);
+  height: 30px;
+}
+
+.todo .titulo {
+  height: 20%;
+}
+
+.todo .titulo .titulo-div {
+  height: 100%;
+  width: 100%;
+  background-color: rgba(255, 200, 189, 0.523);
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+.todo .titulo .titulo-div .semiti {
+  display: flex;
+  position: absolute;
+  justify-content: right;
+  text-align: center;
+  height: 39%;
+  width: 51%;
+}
+.todo .titulo .titulo-div .semiti p {
+  font-size: 0.9rem;
+  letter-spacing: 0.9rem;
+  color: rgba(255, 212, 212, 0.733);
+}
+.todo .titulo .titulo-div p {
+  letter-spacing: 1rem;
+  height: 70%;
+  color: rgb(255, 255, 255);
+  font-size: 3rem;
+  font-weight: bold;
+}
+.todo .footer {
+  height: 10%;
+}
+.todo .footer .footer-div {
+  height: 70%;
+  background-color: rgba(0, 0, 0, 0.445);
+}
+.todo .footer .footer-div p {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  letter-spacing: 0.2rem;
+  word-spacing: 0.8rem;
+  height: 90%;
+  color: rgba(255, 255, 255, 0.84);
+  font-size: 1rem;
+
+}/*# sourceMappingURL=style.css.map */
